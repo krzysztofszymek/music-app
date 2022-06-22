@@ -1,0 +1,15 @@
+.albumCover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 60%;
+    margin: 1rem;
+}
+
+.albumCover img {
+    width: 100%;
+    height: auto;
+    max-height: inherit;
+    border-radius: 50%;
+}

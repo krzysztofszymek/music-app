@@ -1,0 +1,15 @@
+.playlist {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    height: 100%;
+    width: 50%;
+    padding: 1rem;
+    border: 1px solid yellow;
+}
+
+@media (max-width: 980px) {
+    .playlist {
+        display: none;
+    }
+}

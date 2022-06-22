@@ -1,0 +1,14 @@
+.player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    padding: 2% 1%;
+}
+
+@media (max-width: 980px) {
+    .player {
+        width: 100%;
+    }
+}

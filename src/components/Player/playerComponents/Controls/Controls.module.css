@@ -1,0 +1,23 @@
+.controls {
+    display: flex;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+}
+
+.controls button {
+    padding: .5rem;
+    background: none;
+    border: none;
+    border-radius: 20%;
+}
+
+.controls button:hover {
+    background-color: yellow;
+}
+
+.controls svg {
+    width: 2rem;
+    height: 1.5rem;
+    color: white;
+}
