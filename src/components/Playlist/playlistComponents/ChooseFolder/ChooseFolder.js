@@ -9,7 +9,7 @@ function ChooseFolder(props) {
 
     return (
         <div className={styles.folderInput}>
-            <label htmlFor="folder">Select folder</label>
+            <label htmlFor="folder">Select .mp3 folder</label>
             <input type="file" id="folder" webkitdirectory="true" multiple onChange={openFolder}/>
         </div>
     );

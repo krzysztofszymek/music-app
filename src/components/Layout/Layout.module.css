@@ -4,6 +4,7 @@
     padding: 1%;
     align-items: center;
     background-color: black;
-    border: .5rem rgba(255, 230, 0, 0.788);
+    border-image: linear-gradient(to right, rgba(255,0,0) 20%, rgba(255,98,0) 60%, rgba(255,248,0) 100%);
+    border-image-slice: 1;
     border-style: outset;
 }

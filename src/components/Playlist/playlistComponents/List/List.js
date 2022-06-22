@@ -1,20 +1,15 @@
 import styles from './List.module.css'
+import ListItem from './ListItem/ListItem';
 
 function List(props) {
     const files = props.fileList;
 
-    console.log(files);
-
     function listItems(){
         var list = [];
-
         for(let i = 1; i < files.length; i++){
-            var newItem = <li key={files[i].name}>
-                                {files[i].name}
-                           </li>
+            var newItem = <ListItem item={files[i]} />
             list = [...list, newItem];
         }
-
         return list;
     }
 

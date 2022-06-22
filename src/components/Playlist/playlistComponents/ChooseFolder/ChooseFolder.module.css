@@ -2,9 +2,10 @@
     position: absolute;
     bottom: 0;
     margin-bottom: 1rem;
-    background: rgb(255,0,0);
-    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,98,0,1) 43%, rgba(255,248,0,1) 100%);
-    border-radius: 5%;
+    color: white;
+    background-color: black;
+    border-radius: 1rem;
+    cursor: pointer;
 }
 
 .folderInput label {
@@ -19,5 +20,4 @@
     border: none;
     text-decoration: none;
     margin: 4px 2px;
-    cursor: pointer;
 }
