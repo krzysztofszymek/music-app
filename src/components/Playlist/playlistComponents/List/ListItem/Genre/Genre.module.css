@@ -1,3 +1,21 @@
 .genre {
-    
+    position: relative;
+    padding: .2rem;
+    margin-right: .5rem;
+    font-size: .8rem;
+    color: black;
+    text-shadow: none;
+    border-radius: .5rem;
+}
+
+.genre:nth-child(n){
+    background-color: yellow;
+}
+
+.genre:nth-child(2n){
+    background-color: orangered;
+}
+
+.genre:nth-child(3n){
+    background-color: red;
 }
