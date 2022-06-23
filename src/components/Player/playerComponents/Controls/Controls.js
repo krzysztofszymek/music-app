@@ -1,14 +1,13 @@
 import styles from './Controls.module.css';
 import ControlTypes from './ControlTypes';
+import Button from './Button';
 
 function Controls() {
     return (
         <div className={styles.controls}>
             {ControlTypes.map((control) => {
                 return (
-                    <button key={control.name} name={control.name}>
-                        {control.icon}
-                    </button>
+                    <Button control={control}/>
                 );
             })}
         </div>

@@ -1,0 +1,21 @@
+.button {
+    padding: .5rem;
+    background: none;
+    border: none;
+    border-radius: 20%;
+}
+
+.button:hover {
+    background-color: yellow;
+    transition: background-color .5s;
+}
+
+.button:active {
+    background-color: red;
+}
+
+.button svg {
+    width: 2rem;
+    height: 1.5rem;
+    color: white;
+}

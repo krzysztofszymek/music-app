@@ -7,8 +7,8 @@ function List(props) {
     function listItems(){
         var list = [];
         for(let i = 1; i < files.length; i++){
-            var newItem = <ListItem item={files[i]} />
-            list = [...list, newItem];
+            const newItem = <ListItem item={files[i]} />
+            list.push(newItem);
         }
         return list;
     }
