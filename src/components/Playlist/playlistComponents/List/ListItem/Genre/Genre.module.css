@@ -1,7 +1,7 @@
 .genre {
     position: relative;
     padding: .2rem;
-    margin-right: .5rem;
+    margin: .3rem .5rem .3rem 0;
     font-size: .8rem;
     color: black;
     text-shadow: none;
