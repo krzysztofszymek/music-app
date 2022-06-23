@@ -1,14 +1,18 @@
+import Genre from './Genre/Genre';
 import styles from './ListItem.module.css'
 
 function ListItem(props) {
-    const name = props.item.name.split(".mp3");
-    const src = URL.createObjectURL(props.item);
+    const title = props.item.title;
+    const genres = props.item.genres;
 
-    console.log(props.item);
     return (
-        <li className={styles.listItem} key={name}>
-            {name}
-            {/*<audio controls id="yourMusic" src={src}></audio>*/}
+        <li className={styles.listItem} key={title}>
+            {title}
+            <div className={styles.genres}>
+                {genres.map((genre) => {
+                    return <Genre genre={genre}/>
+                })}
+            </div>
         </li>
     );
 }

@@ -2,20 +2,20 @@ import styles from './List.module.css'
 import ListItem from './ListItem/ListItem';
 
 function List(props) {
-    const files = props.fileList;
+    const data = props.fileList;
 
     function listItems(){
         var list = [];
-        for(let i = 1; i < files.length; i++){
-            const newItem = <ListItem item={files[i]} />
+        data.forEach((item) => {
+            const newItem = <ListItem item={item} />
             list.push(newItem);
-        }
+        });
         return list;
     }
 
     return (
         <ul className={styles.list}>
-            {files == null ? null : listItems()}
+            {data == null ? null : listItems()}
         </ul>
     );
 }

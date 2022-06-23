@@ -11,3 +11,10 @@
     margin-bottom: 1rem;
     text-shadow: 0 0 3px red, 0 0 5px orangered, 0 0 7px yellow;
 }
+
+.genres {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
